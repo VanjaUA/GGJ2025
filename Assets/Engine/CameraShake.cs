@@ -25,7 +25,7 @@ namespace Engine
 
         private void ShakeHandle() 
         {
-            if (IsMoving() == false)
+            if (InputManager.Instance.IsMoving() == false)
             {
                 currentShakeAmplitude = Mathf.Lerp(currentShakeAmplitude, 0, Time.deltaTime * smoothTransition);
                 transform.localPosition = Vector3.Slerp(transform.localPosition, originalPosition, Time.deltaTime * smoothTransition);

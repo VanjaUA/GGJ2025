@@ -38,9 +38,9 @@ namespace Engine
 
         private void Start()
         {
-            UIManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
-            UIManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
-            UIManager.Instance.UpdateMoneyText(money);
+            PlayerHUDManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
+            PlayerHUDManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
+            PlayerHUDManager.Instance.UpdateMoneyText(money);
         }
 
         private void Update()
@@ -66,9 +66,9 @@ namespace Engine
             {
                 var loadedData = JsonSaveService.LoadData<GameData>("data");
                 money = loadedData.Money;
-                UIManager.Instance.UpdateMoneyText(money);
+                PlayerHUDManager.Instance.UpdateMoneyText(money);
                 _currentHealth = loadedData.HealthPoints;
-                UIManager.Instance.UpdateHealthBar(_currentHealth,MaxHealth);
+                PlayerHUDManager.Instance.UpdateHealthBar(_currentHealth,MaxHealth);
             }
         }
 
@@ -80,7 +80,7 @@ namespace Engine
 
         private void HandleCharacterMovement()
         {
-            Vector2 moveDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+            Vector2 moveDirection = InputManager.Instance.GetMoveDirection();
             Vector3 characterVelocity = (transform.right * moveDirection.x * moveSpeed + transform.forward * moveDirection.y * moveSpeed);
 
             if (_characterController.isGrounded)
@@ -116,7 +116,14 @@ namespace Engine
         {
             if (Input.GetMouseButtonDown(0) && TryToShoot())
             {
-                Ray ray = mainCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
+                float spread = 0.02f;
+                if (InputManager.Instance.IsMoving())
+                {
+                    spread = 0.005f;
+                }
+                Vector2 randomOffset = Random.insideUnitCircle * spread;
+                Vector3 targetPoint = new Vector3(0.5f + randomOffset.x, 0.5f + randomOffset.y, 0f);
+                Ray ray = mainCamera.ViewportPointToRay(targetPoint);
                 //ray.origin = mainCamera.transform.position;
                 ray.origin = shootPoint.position;
 
@@ -150,7 +157,7 @@ namespace Engine
             {
                 TryToReload();
             }
-            UIManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
+            PlayerHUDManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
             return canShoot;
         }
 
@@ -164,12 +171,12 @@ namespace Engine
             {
                 bulletsInClip = allBullets;
                 allBullets = 0;
-                UIManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
+                PlayerHUDManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
                 return;
             }
             bulletsInClip = ClipCapacity;
             allBullets -= bulletsInClip;
-            UIManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
+            PlayerHUDManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
         }
 
 
@@ -178,7 +185,7 @@ namespace Engine
             Damage(5);
             money -= 98;
 
-            UIManager.Instance.UpdateMoneyText(money);
+            PlayerHUDManager.Instance.UpdateMoneyText(money);
         }
 
         public void Heal(int healAmount)
@@ -188,7 +195,7 @@ namespace Engine
             {
                 _currentHealth = MaxHealth;
             }
-            UIManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
+            PlayerHUDManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
         }
 
         public void Damage(int damageAmount)
@@ -199,7 +206,7 @@ namespace Engine
                 _currentHealth = 0;
                 Die();
             }
-            UIManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
+            PlayerHUDManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
         }
 
         public void Die()

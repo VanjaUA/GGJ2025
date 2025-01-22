@@ -21,7 +21,7 @@ namespace Engine
 
         void Update()
         {
-            if (IsMoving() == false)
+            if (InputManager.Instance.IsMoving() == false)
             {
                 currentShakeAmplitude = Mathf.Lerp(currentShakeAmplitude, 0, Time.deltaTime * smoothTransition);
                 weaponTransform.localPosition = Vector3.Lerp(weaponTransform.localPosition, originalPosition, Time.deltaTime * smoothTransition);
@@ -33,11 +33,6 @@ namespace Engine
             float offsetX = Mathf.Sin(shakeTimer) * currentShakeAmplitude;
             float offsetY = Mathf.Cos(shakeTimer * 2) * currentShakeAmplitude * 0.5f;
             weaponTransform.localPosition = originalPosition + new Vector3(offsetX, offsetY, 0);
-        }
-
-        private bool IsMoving()
-        {
-            return Input.GetAxis("Vertical") != 0 || Input.GetAxis("Horizontal") != 0;
         }
     }
 }

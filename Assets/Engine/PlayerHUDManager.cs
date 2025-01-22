@@ -4,9 +4,11 @@ using UnityEngine.UI;
 
 namespace Engine
 {
-    public class UIManager : MonoBehaviour
+    public class PlayerHUDManager : MonoBehaviour
     {
-        public static UIManager Instance { get; private set; }
+        public static PlayerHUDManager Instance { get; private set; }
+
+        [SerializeField] private RectTransform crosshair;
 
         [SerializeField] private Sprite[] faceSprites;
         [SerializeField] private Image faceImage;

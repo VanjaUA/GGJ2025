@@ -537,7 +537,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 105.88489, y: 0}
-  m_SizeDelta: {x: 670.6363, y: 290.2172}
+  m_SizeDelta: {x: 453.1821, y: 167.8992}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1945434350
 MonoBehaviour:
@@ -586,7 +586,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 152.15
+  m_fontSize: 102.8
   m_fontSizeBase: 119.23
   m_fontWeight: 400
   m_enableAutoSizing: 1
