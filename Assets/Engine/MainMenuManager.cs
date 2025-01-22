@@ -49,7 +49,7 @@ namespace Engine
 
         private void ContinueGame()
         {
-
+            SceneLoader.Load(SceneLoader.Scene.TestScene);
         }
 
         private void OpenSettings()

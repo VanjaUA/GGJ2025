@@ -55,6 +55,21 @@ namespace Engine
             {
                 TakeDamage();
             }
+
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                var playerData = new GameData { Money = money, HealthPoints = _currentHealth };
+                JsonSaveService.SaveData(playerData,"data");
+            }
+
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                var loadedData = JsonSaveService.LoadData<GameData>("data");
+                money = loadedData.Money;
+                UIManager.Instance.UpdateMoneyText(money);
+                _currentHealth = loadedData.HealthPoints;
+                UIManager.Instance.UpdateHealthBar(_currentHealth,MaxHealth);
+            }
         }
 
         private void HandleCharacterLook()
