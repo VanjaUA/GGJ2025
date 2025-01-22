@@ -7,12 +7,14 @@ namespace Engine
     public class Player : MonoBehaviour,IDamageable
     {
         private const int MaxHealth = 100;
+        private const int ClipCapacity = 12;
 
         [SerializeField] private float mouseSensitivity = 1f;
         [SerializeField] private float moveSpeed;
 
         [SerializeField] private int damage;
         [SerializeField] private LayerMask damageableLayer;
+        [SerializeField] private Transform shootPoint;
 
         private int _currentHealth;
         private int allBullets = 98, bulletsInClip = 12;
@@ -31,12 +33,14 @@ namespace Engine
 
             mainCamera = Camera.main;
 
+            _characterController = GetComponent<CharacterController>();
+        }
+
+        private void Start()
+        {
             UIManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
             UIManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
             UIManager.Instance.UpdateMoneyText(money);
-
-
-            _characterController = GetComponent<CharacterController>();
         }
 
         private void Update()
@@ -95,57 +99,69 @@ namespace Engine
 
         private void HandleShooting()
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && TryToShoot())
             {
-                //Debug.Log("Shoot");
-
-                //Vector3 halfBoxSize = new Vector3(.7f, .75f, 20f);
-                //float playerHeightOffset = .8f;
-                //Collider[] colliderArray = 
-                //    Physics.OverlapBox(transform.position + transform.up * playerHeightOffset + transform.forward * halfBoxSize.z,
-                //    halfBoxSize, transform.rotation, damageableLayer);
-                //Debug.Log(colliderArray.Length);
-                //foreach (Collider collider in colliderArray)
-                //{
-                //    IDamageable hitTarget;
-                //    collider.TryGetComponent<IDamageable>(out hitTarget);
-                //    if (collider.TryGetComponent<IDamageable>(out hitTarget))
-                //    {
-                //        Debug.Log("Hit");
-                //        hitTarget.Damage(damage);
-                //    }
-                //}
-
-
-
-
                 Ray ray = mainCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
-                ray.origin = mainCamera.transform.position;
+                //ray.origin = mainCamera.transform.position;
+                ray.origin = shootPoint.position;
 
                 if (Physics.Raycast(ray, out RaycastHit hit))
                 {
                     if (hit.collider.TryGetComponent<IDamageable>(out IDamageable target))
                     {
                         Debug.Log("Hit   " + hit.collider.gameObject.name);
+                        target.Damage(damage);
                     }
                     else
                     {
-                        GameObject bulletImpactObject = Instantiate(bulletImpact, hit.point + hit.normal * 0.002f, Quaternion.LookRotation(hit.normal, Vector3.up));
-                        Destroy(bulletImpactObject, 15f);
+                        GameObject bulletImpactObject = Instantiate(bulletImpact, hit.point + hit.normal * 0.002f,
+                            Quaternion.LookRotation(hit.normal, Vector3.up));
+                        Destroy(bulletImpactObject, 5f);
                     }
                 }
 
             }
         }
 
+        private bool TryToShoot() 
+        {
+            bool canShoot = false;
+            if (bulletsInClip > 0)
+            {
+                bulletsInClip--;
+                canShoot = true;
+            }
+            else
+            {
+                TryToReload();
+            }
+            UIManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
+            return canShoot;
+        }
+
+        private void TryToReload() 
+        {
+            if (allBullets <= 0) 
+            {
+                return;
+            }
+            if (allBullets <= ClipCapacity)
+            {
+                bulletsInClip = allBullets;
+                allBullets = 0;
+                UIManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
+                return;
+            }
+            bulletsInClip = ClipCapacity;
+            allBullets -= bulletsInClip;
+            UIManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
+        }
+
 
         private void TakeDamage() 
         {
             Damage(5);
-            bulletsInClip -= 2;
             money -= 98;
-
-            UIManager.Instance.UpdateBulletsText(allBullets,bulletsInClip);
 
             UIManager.Instance.UpdateMoneyText(money);
         }
