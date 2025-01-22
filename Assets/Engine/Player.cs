@@ -116,10 +116,10 @@ namespace Engine
         {
             if (Input.GetMouseButtonDown(0) && TryToShoot())
             {
-                float spread = 0.02f;
+                float spread = 0.005f;
                 if (InputManager.Instance.IsMoving())
                 {
-                    spread = 0.005f;
+                    spread = 0.02f;
                 }
                 Vector2 randomOffset = Random.insideUnitCircle * spread;
                 Vector3 targetPoint = new Vector3(0.5f + randomOffset.x, 0.5f + randomOffset.y, 0f);
