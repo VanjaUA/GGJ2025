@@ -9,12 +9,24 @@ namespace Engine
         [SerializeField] private float mouseSensitivity = 1f;
         [SerializeField] private float moveSpeed;
 
+        private int allBullets = 98, bulletsInClip = 12;
+        [SerializeField] private int maxhealth = 100;
+        [SerializeField] private int currentHealth = 100;
+        private int money = 9998;
+
         private float _characterVelocityY;
 
         private CharacterController _characterController;
 
         private void Awake()
         {
+            UIManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
+
+            UIManager.Instance.UpdateHealthBar(currentHealth, maxhealth);
+
+            UIManager.Instance.UpdateMoneyText(money);
+
+
             _characterController = GetComponent<CharacterController>();
         }
 
@@ -24,6 +36,11 @@ namespace Engine
             HandleCharacterMovement();
 
             CursorHandle();
+
+            if (Input.GetKeyDown(KeyCode.T))
+            {
+                TakeDamage();
+            }
         }
 
         private void HandleCharacterLook()
@@ -64,6 +81,20 @@ namespace Engine
                 Cursor.lockState = CursorLockMode.Locked;
                 return;
             }
+        }
+
+
+        private void TakeDamage() 
+        {
+            currentHealth -= 5;
+            bulletsInClip -= 2;
+            money -= 98;
+
+            UIManager.Instance.UpdateBulletsText(allBullets,bulletsInClip);
+
+            UIManager.Instance.UpdateHealthBar(currentHealth, maxhealth);
+
+            UIManager.Instance.UpdateMoneyText(money);
         }
     }
 }
