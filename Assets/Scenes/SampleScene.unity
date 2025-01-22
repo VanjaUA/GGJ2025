@@ -223,6 +223,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 1
   moveSpeed: 10
+  damage: 0
+  damageableLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  bulletImpact: {fileID: 2331928671181125191, guid: a13625faead9917469095808e3be7297,
+    type: 3}
 --- !u!143 &20630475
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1221,6 +1227,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1061930707710066617, guid: c8916b3899f7f3a4fae105ab04dc92e4,
+        type: 3}
+      propertyPath: followObject
+      value: 
+      objectReference: {fileID: 20630468}
     - target: {fileID: 1061930707710066618, guid: c8916b3899f7f3a4fae105ab04dc92e4,
         type: 3}
       propertyPath: m_Name
