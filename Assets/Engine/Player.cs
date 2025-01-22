@@ -4,14 +4,15 @@ using UnityEngine;
 
 namespace Engine
 {
-    public class Player : MonoBehaviour
+    public class Player : MonoBehaviour,IDamageable
     {
+        private const int MaxHealth = 100;
+
         [SerializeField] private float mouseSensitivity = 1f;
         [SerializeField] private float moveSpeed;
 
+        private int _currentHealth;
         private int allBullets = 98, bulletsInClip = 12;
-        [SerializeField] private int maxhealth = 100;
-        [SerializeField] private int currentHealth = 100;
         private int money = 9998;
 
         private float _characterVelocityY;
@@ -20,10 +21,10 @@ namespace Engine
 
         private void Awake()
         {
+            _currentHealth = MaxHealth;
+
             UIManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
-
-            UIManager.Instance.UpdateHealthBar(currentHealth, maxhealth);
-
+            UIManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
             UIManager.Instance.UpdateMoneyText(money);
 
 
@@ -36,6 +37,7 @@ namespace Engine
             HandleCharacterMovement();
 
             CursorHandle();
+            HandleShooting();
 
             if (Input.GetKeyDown(KeyCode.T))
             {
@@ -83,18 +85,62 @@ namespace Engine
             }
         }
 
+        private void HandleShooting()
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                Debug.Log("Shoot");
+
+                //Vector3 halfBoxSize = new Vector3(.7f, .75f, 20f);
+                //float playerHeightOffset = .8f;
+                //Collider[] colliderArray = Physics.OverlapBox(transform.position + transform.up * playerHeightOffset + transform.forward * halfBoxSize.z, halfBoxSize, transform.rotation);
+                //foreach (Collider collider in colliderArray)
+                //{
+                //    var shootingTarget = collider.GetComponent<BoxCollider>();
+                //    if (shootingTarget != null)
+                //    {
+                //        //shootingTarget.Damage();
+                //    }
+                //}
+            }
+        }
+
 
         private void TakeDamage() 
         {
-            currentHealth -= 5;
+            Damage(5);
             bulletsInClip -= 2;
             money -= 98;
 
             UIManager.Instance.UpdateBulletsText(allBullets,bulletsInClip);
 
-            UIManager.Instance.UpdateHealthBar(currentHealth, maxhealth);
-
             UIManager.Instance.UpdateMoneyText(money);
+        }
+
+        public void Heal(int healAmount)
+        {
+            _currentHealth += healAmount;
+            if (_currentHealth > MaxHealth)
+            {
+                _currentHealth = MaxHealth;
+            }
+            UIManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
+        }
+
+        public void Damage(int damageAmount)
+        {
+            _currentHealth -= damageAmount;
+            if (_currentHealth <= 0)
+            {
+                _currentHealth = 0;
+                Die();
+            }
+            UIManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
+        }
+
+        public void Die()
+        {
+            Debug.Log("Player died");
         }
     }
 }
