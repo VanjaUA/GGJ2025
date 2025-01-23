@@ -70,6 +70,11 @@ namespace Engine
                 _currentHealth = loadedData.HealthPoints;
                 PlayerHUDManager.Instance.UpdateHealthBar(_currentHealth,MaxHealth);
             }
+
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                TryToReload();
+            }
         }
 
         private void HandleCharacterLook()
@@ -166,6 +171,11 @@ namespace Engine
             if (allBullets <= 0) 
             {
                 return;
+            }
+            if (bulletsInClip > 0)
+            {
+                allBullets += bulletsInClip;
+                bulletsInClip = 0;
             }
             if (allBullets <= ClipCapacity)
             {
