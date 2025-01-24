@@ -24,6 +24,7 @@ namespace Engine
 
         private void HandleMovement() 
         {
+            //transform.position = Vector3.MoveTowards(transform.position, followObject.transform.position,speed * Time.deltaTime);
             Vector3 newPosition = Vector3.MoveTowards(_rigidbody.position, followObject.transform.position, speed * Time.deltaTime);
             _rigidbody.MovePosition(newPosition);
         }
