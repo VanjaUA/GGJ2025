@@ -7,12 +7,14 @@ namespace Engine
     public class Player : MonoBehaviour,IDamageable
     {
         private const int MaxHealth = 100;
+        private const int ClipCapacity = 12;
 
         [SerializeField] private float mouseSensitivity = 1f;
         [SerializeField] private float moveSpeed;
 
         [SerializeField] private int damage;
         [SerializeField] private LayerMask damageableLayer;
+        [SerializeField] private Transform shootPoint;
 
         private int _currentHealth;
         private int allBullets = 98, bulletsInClip = 12;
@@ -31,12 +33,14 @@ namespace Engine
 
             mainCamera = Camera.main;
 
-            UIManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
-            UIManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
-            UIManager.Instance.UpdateMoneyText(money);
-
-
             _characterController = GetComponent<CharacterController>();
+        }
+
+        private void Start()
+        {
+            PlayerHUDManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
+            PlayerHUDManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
+            PlayerHUDManager.Instance.UpdateMoneyText(money);
         }
 
         private void Update()
@@ -51,6 +55,26 @@ namespace Engine
             {
                 TakeDamage();
             }
+
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                var playerData = new GameData { Money = money, HealthPoints = _currentHealth };
+                JsonSaveService.SaveData(playerData,"data");
+            }
+
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                var loadedData = JsonSaveService.LoadData<GameData>("data");
+                money = loadedData.Money;
+                PlayerHUDManager.Instance.UpdateMoneyText(money);
+                _currentHealth = loadedData.HealthPoints;
+                PlayerHUDManager.Instance.UpdateHealthBar(_currentHealth,MaxHealth);
+            }
+
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                TryToReload();
+            }
         }
 
         private void HandleCharacterLook()
@@ -61,7 +85,7 @@ namespace Engine
 
         private void HandleCharacterMovement()
         {
-            Vector2 moveDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+            Vector2 moveDirection = InputManager.Instance.GetMoveDirection();
             Vector3 characterVelocity = (transform.right * moveDirection.x * moveSpeed + transform.forward * moveDirection.y * moveSpeed);
 
             if (_characterController.isGrounded)
@@ -95,10 +119,18 @@ namespace Engine
 
         private void HandleShooting()
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && TryToShoot())
             {
-                Ray ray = mainCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
-                ray.origin = mainCamera.transform.position;
+                float spread = 0.005f;
+                if (InputManager.Instance.IsMoving())
+                {
+                    spread = 0.02f;
+                }
+                Vector2 randomOffset = Random.insideUnitCircle * spread;
+                Vector3 targetPoint = new Vector3(0.5f + randomOffset.x, 0.5f + randomOffset.y, 0f);
+                Ray ray = mainCamera.ViewportPointToRay(targetPoint);
+                //ray.origin = mainCamera.transform.position;
+                ray.origin = shootPoint.position;
 
                 if (Physics.Raycast(ray, out RaycastHit hit))
                 {
@@ -118,16 +150,52 @@ namespace Engine
             }
         }
 
+        private bool TryToShoot() 
+        {
+            bool canShoot = false;
+            if (bulletsInClip > 0)
+            {
+                bulletsInClip--;
+                canShoot = true;
+            }
+            else
+            {
+                TryToReload();
+            }
+            PlayerHUDManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
+            return canShoot;
+        }
+
+        private void TryToReload() 
+        {
+            if (allBullets <= 0) 
+            {
+                return;
+            }
+            if (bulletsInClip > 0)
+            {
+                allBullets += bulletsInClip;
+                bulletsInClip = 0;
+            }
+            if (allBullets <= ClipCapacity)
+            {
+                bulletsInClip = allBullets;
+                allBullets = 0;
+                PlayerHUDManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
+                return;
+            }
+            bulletsInClip = ClipCapacity;
+            allBullets -= bulletsInClip;
+            PlayerHUDManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
+        }
+
 
         private void TakeDamage() 
         {
             Damage(5);
-            bulletsInClip -= 2;
             money -= 98;
 
-            UIManager.Instance.UpdateBulletsText(allBullets,bulletsInClip);
-
-            UIManager.Instance.UpdateMoneyText(money);
+            PlayerHUDManager.Instance.UpdateMoneyText(money);
         }
 
         public void Heal(int healAmount)
@@ -137,7 +205,7 @@ namespace Engine
             {
                 _currentHealth = MaxHealth;
             }
-            UIManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
+            PlayerHUDManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
         }
 
         public void Damage(int damageAmount)
@@ -148,7 +216,7 @@ namespace Engine
                 _currentHealth = 0;
                 Die();
             }
-            UIManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
+            PlayerHUDManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
         }
 
         public void Die()
