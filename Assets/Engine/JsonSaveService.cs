@@ -60,4 +60,5 @@ namespace Engine
         public int Money;
         public int HealthPoints;
     }
+
 }

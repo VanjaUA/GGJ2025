@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Engine
@@ -6,9 +7,25 @@ namespace Engine
     {
         public static InputManager Instance { get; private set; }
 
+        public event Action OnLeftMouseButtonPressed;
+        public event Action OnSpaceButtonPressed;
+
         private void Awake()
         {
             SingletonInit();
+        }
+
+        private void Update()
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                OnLeftMouseButtonPressed?.Invoke();
+            }
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                OnSpaceButtonPressed?.Invoke();
+            }
         }
 
         private void SingletonInit()
