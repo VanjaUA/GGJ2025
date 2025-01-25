@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/LoadingScene.unity
     guid: d127ec0be43e84247b73539d047c76a6
   - enabled: 1
-    path: Assets/Scenes/TestScene.unity
-    guid: 4e65ba82f96f73240848dcdc2f6a47c5
+    path: Assets/Scenes/KrastyKrab.unity
+    guid: bb7f4970f95d9224db7f396c8e6316fa
   m_configObjects: {}

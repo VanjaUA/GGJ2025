@@ -24,6 +24,8 @@ namespace Engine
             public Sprite BackgroundSprite;
             public string LabelText;
             public string DialogText;
+            public AudioClip SoundClip;
+            public AudioClip MusicClip;
         }
     }
 

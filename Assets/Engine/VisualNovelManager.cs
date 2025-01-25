@@ -85,6 +85,14 @@ namespace Engine
             {
                 dialogText.text = frameData.DialogText;
             }
+            if (frameData.MusicClip != null)
+            {
+                //play music
+            }
+            if (frameData.SoundClip != null)
+            {
+                //play sound
+            }
         }
     }
 }
