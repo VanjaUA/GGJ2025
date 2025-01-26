@@ -1,0 +1,496 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b2fef265490eb349a3f9bb5e7115a2f, type: 3}
+  m_Name: Day3_FramesConfig
+  m_EditorClassIdentifier: 
+  Data:
+    AllFrames:
+    - CharacterSprite: {fileID: 21300000, guid: 1bf6bd02709627b4ea36b1daa1037d5a,
+        type: 3}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Patrick
+      DialogText: SpongeBob! Over here!
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 21556723030991848a9971f640bcf237,
+        type: 3}
+      BackgroundSprite: {fileID: 21300000, guid: 0ede71d088db2894abd87970f393e5f0,
+        type: 3}
+      LabelText: Patrick
+      DialogText: Long time no see, pal!
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 8300000, guid: f8dd6fe6b50aca04188f6aa3f84d9222, type: 3}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Hello Patrick
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Look better than ever, lost some weight didn't ya?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 617fadaaab0dcc04084523c428a2414f,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: I don't know, I've broke my scales last time.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 21556723030991848a9971f640bcf237,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: But yeah I think I am slowly losing some weight.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: You saw that protein powder that is being advertised everywhere.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: I'm thinking to buy some and eat only those.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: a526e51fa1814254d8bb80f9faf82571,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: Heard helps losing weight.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Uh, yeah, I think...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: technically it does.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Hey Pat
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Have you ever thought that we are doing something wrong in our
+        lives?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 21556723030991848a9971f640bcf237,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: Something wrong?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: Nah I'm still feeling pretty chill.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: The only thing that disturbs me right now is lite haemorrhoids.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: a526e51fa1814254d8bb80f9faf82571,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: But overall I'm fine.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: No I'm not talking about well-being.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: It's just...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Uh, you remember that I've lost my job? To that incident that happend
+        last month?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: What are you talking about SpongeBob? What incident?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: That one. Involving Plankton and his...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: God, how much alcohol are they adding in this ice cream?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 21556723030991848a9971f640bcf237,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: I believe it is alcoholics' golden month ongoing here at this place.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Alcoholic what?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: You know, a period when kelps from which they make alcoholic beverages
+        here are at their peak
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: like a new harvest or something.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: At least that is what they wrote at the entrance.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Yeah, right, harvest.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: So, what we were talking about?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: Something about the industrial society.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Right, so have you ever thought about your place in life?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Like fuck, man, you're living under a rock, it's like you've hit
+        rock bottom from the day you were born.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: And years are passing but you still live there, without changes,
+        in poverty, without perspectives on the future and everything.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: a526e51fa1814254d8bb80f9faf82571,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: 'So? Diogene lived in a tub and people remembered him as a great
+        philosopher. '
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: But you're not Diogene...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: It's just... I've been having a feeling that I've lost something
+        very important due to my fault.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: It's like I can't remember it.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 21556723030991848a9971f640bcf237,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: Oh I can't even remember what I had for breakfast.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: It's normal, Bob.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: And you know that you are always welcome at my rock house if anything.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Thanks Pat.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: You're welcome. By the way, have you seen Squidward lately? It's
+        like he dissapeared.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: The last time I saw him he told me that he's going on a vacation.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: That's neat, means I can go sleep in his house.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: Don't think Squidward would mind.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: We have been neighbours for decades after all.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: He won't mind.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Not after all the things we've done to him.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 617fadaaab0dcc04084523c428a2414f,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: Huh, yeah, sometimes I think of him as a father.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Excuse me, what?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 21556723030991848a9971f640bcf237,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: You don't feel like that too?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: Yes he could have been rough at times with us.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: But he wanted only good for us for sure.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: You may be right.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: Uh, we see each other so rarely now.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: Remember the times when we used to hangout everyday?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I've spent my whole childhood with you, so naturally, yes.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: Um, well
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: wanna go jellyfishing sometime next week?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Patrick you're a grown-ass man the fuck you talking about.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Maybe you wanna suggest blowing bubbles also?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: Just wanted to maybe remember old times a little, feeling nostalgic
+        lately.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Me too. Always.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 617fadaaab0dcc04084523c428a2414f,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 21556723030991848a9971f640bcf237,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: Beer-pong?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: You remember how the last time when we were playing it ended?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Patrick
+      DialogText: Come on, drinks on me.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Uh fuck it, I'm in.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 1bf6bd02709627b4ea36b1daa1037d5a,
+        type: 3}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: SpongeBob
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Undoubtedly, Patrick is the best person I ever met.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: 'He always supported me, at times it even seemed that he is ready
+        to die for me. '
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Though I still haven't figured out if it is because of his lack
+        of survival instinct or he really is a very loyal friend.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: 'Unfortunately, he passed away at the age of 28 because of a heart
+        attack. '
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
