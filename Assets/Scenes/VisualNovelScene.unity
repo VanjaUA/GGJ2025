@@ -795,7 +795,7 @@ MonoBehaviour:
   characterLabelText: {fileID: 1890822418}
   dialogText: {fileID: 257950034}
   allFramesData:
-  - {fileID: 11400000, guid: e06770bd05503b54a95ba11486be90ca, type: 2}
+  - {fileID: 11400000, guid: fb9c3b5e75cafa844a19c2142c360404, type: 2}
 --- !u!1 &1684854859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,8 +1022,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -575.4126, y: -139.5484}
-  m_SizeDelta: {x: 414.4586, y: 85.0391}
+  m_AnchoredPosition: {x: -600.5671, y: -139.5484}
+  m_SizeDelta: {x: 435.174, y: 85.039}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1890822418
 MonoBehaviour:

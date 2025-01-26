@@ -14,29 +14,729 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Data:
     AllFrames:
-    - CharacterSprite: {fileID: 21300000, guid: bec2ae7c1d41c884ea89de6b4e772cff,
+    - CharacterSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
         type: 3}
-      BackgroundSprite: {fileID: 21300000, guid: 89de1aeb48c383849b2a0e5e514a1ba6,
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
         type: 3}
-      LabelText: Okarin
-      DialogText: I'm a mad scientist
+      LabelText: Unknown
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: 
+      DialogText: How is our latest research going?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 8300000, guid: dbd6a7764ef9a2d40b984284e4355fd5, type: 3}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Console
+      DialogText: The efficiency of drug treatment remains at 85%.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Console
+      DialogText: It seems that we had a problem with supplying processed ores from
+        Rock Bottom.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Console
+      DialogText: Apparently, residents were complaining about poor air quality and
+        almost half of their population being unable to work.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Console
+      DialogText: The "Implantation" protocol has been initiated.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Unknown
+      DialogText: Good.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Unknown
+      DialogText: And what about the report on behavioural changes of Alpha subjects?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Console
+      DialogText: Subjects are showing aggressiveness and visual hallucinations.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Console
+      DialogText: We still have not enough data to find out the reasons.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Console
+      DialogText: The research on this subject is ongoing.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Unknown
+      DialogText: Well, at this point it may be unnecessary.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Unknown
+      DialogText: 'In fact, the use of Alpha substances proved itself to be very
+        ineffective... '
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Unknown
+      DialogText: And almost every unstable person was detained by this moment.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Unknown
+      DialogText: I suggest that we stop the process of creating antidote.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Console
+      DialogText: Understood.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Unknown
+      DialogText: I think that's all for today.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Unknown
+      DialogText: We have almost achieved our goal, it is very unlikely that something
+        will go wrong...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Unknown
+      DialogText: Couldn't even imagine that we'd be here.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Unknown
+      DialogText: You know that I wouldn't make it without you.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Console
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Console
+      DialogText: Several errors occured while processing response.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Console
+      DialogText: I am unable to read emotions
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Console
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Console
+      DialogText: Initiating "Cup of coffee" protocol.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Unknown
+      DialogText: Good girl, Karen...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 1bf6bd02709627b4ea36b1daa1037d5a,
+        type: 3}
+      BackgroundSprite: {fileID: 21300000, guid: dcdb77d1e67ef584594f07c5bb7d306f,
+        type: 3}
+      LabelText: SpongeBob
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 8300000, guid: 52c8d2657c6ea41489bbd8e30a0b0d98, type: 3}
+    - CharacterSprite: {fileID: 21300000, guid: 1bf6bd02709627b4ea36b1daa1037d5a,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Another day.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 1bf6bd02709627b4ea36b1daa1037d5a,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I will defend this place for another day
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 1bf6bd02709627b4ea36b1daa1037d5a,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: And than for another day
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 1bf6bd02709627b4ea36b1daa1037d5a,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: As much as it takes.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 1bf6bd02709627b4ea36b1daa1037d5a,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: 'People think of me as a hero, '
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 1bf6bd02709627b4ea36b1daa1037d5a,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: as their last hope...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 1bf6bd02709627b4ea36b1daa1037d5a,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I can't let them down...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 1bf6bd02709627b4ea36b1daa1037d5a,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I can't let this place down.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 1bf6bd02709627b4ea36b1daa1037d5a,
+        type: 3}
+      BackgroundSprite: {fileID: 21300000, guid: de7fe6ef4ccc12641afe3e597614cc8a,
+        type: 3}
+      LabelText: SpongeBob
+      DialogText: Krusty Krab.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
     - CharacterSprite: {fileID: 0}
       BackgroundSprite: {fileID: 0}
       LabelText: SpongeBob
-      DialogText: okay
-    - CharacterSprite: {fileID: 21300000, guid: e3529a280ff27f64b8ec5502cc824722,
+      DialogText: For the last month it is being under attack of Plankton's evil
+        bubbles.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Mr. Krabs can't do nothing right now because of a fierceful defense
+        of Chum Bucket.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Everything that we can do is only fight back...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: But this place won't fall, at least while my sponge heart is beating.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: If anything, handling weapons always been my speciality.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Well, at least for the past few weeks.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: That's why they call me "SquarePants".
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Get it?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Cause after me enemies leave with square pants...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Full of shit...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Bad pun, good thing nobody heard it.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: b94d1e33eab4d7145aa6b2618f4de003,
         type: 3}
-      BackgroundSprite: {fileID: 21300000, guid: 0ede71d088db2894abd87970f393e5f0,
-        type: 3}
-      LabelText: Sandy
-      DialogText: afafafaf
-    - CharacterSprite: {fileID: 21300000, guid: bec2ae7c1d41c884ea89de6b4e772cff,
+      LabelText: SpongeBob
+      DialogText: Is it me or this place changed a bit?..
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Hey, Squidward!
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 2324f8bc5f300844791f9afe7657fdf5,
         type: 3}
       BackgroundSprite: {fileID: 0}
-      LabelText: Okarin
-      DialogText: I fucking hate you!
-    - CharacterSprite: {fileID: 21300000, guid: e3529a280ff27f64b8ec5502cc824722,
+      LabelText: SpongeBob
+      DialogText: What you doing here buddy?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I thought you can't fight because of your PTSD
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: I still cannot, idiot...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: I've already told you that I'm still on a special treatment course.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: Will be staying on quarantine for at least 2 weeks more.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: You are always saying that.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I could use some help here, you know?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: Yeah, yeah, whatever...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: Let me just get straight to the point.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: I was sent here to inform you of new arrivals at Krusty Krab.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: Now you can buy yourself some weapons to kill those baloons or
+        whatever more effectively.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: You need to pay for them though...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: Predictable considering that it is Mr. Krabs that sells them to
+        you...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: What a joke.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Well, that's good of course, but I was already doing well with
+        just my Beretta.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: After all, after I stopped cooking Krabby Patties I stopped earning
+        any money, so...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: Mr. Krabs said that it is a mandatory measure.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: 'It seems that Plankton is planning some full-fledged attack. '
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: So you better be ready...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: Though, in my opinion, you are a dead man walking.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: You should choose your words more careful motherfucker.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I'm not that sponge that I was before.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: It is visible...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: Listen, that's not all.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: Now you can also place turrets that will automatically shoot enemies.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: We have a total of 3 entrances here, so get a good use of them
+        to close some flanks.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Is the situation that bad?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: How come I know?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: Maybe it's just a precaution.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: But I've been protecting all the doors to safe successfully till
+        this moment.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I really think that Mr. Krabs should relax.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Anyway, your hero is en garde.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: No need to worry Squidward.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: Don't worry?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 8300000, guid: 0935d9cb2a45e744a8a8d0944bad4584, type: 3}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: Tell me SpongeBob how can you be so calm in a situation like this?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: Can't you see that we are all fucked?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: I always knew that you are a happy imbecile with obvious mental
+        problems.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: But I wouldn't think that you'd remain like that even in current
+        state of things...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: But I love working here.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: This place is everything for me.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Even now I'm having lots of fun killing those bubbles.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I like seeing them popping, making the whole floor soaked in soap.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I like the sound when they pop, I can even slightly hear something
+        similar to a scream of agony.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: You should try sometime too...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: You are mentally ill sick fucker.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: Always laughing at anything like some psychopath.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: Your whole life is a lie.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Oh yeah? And what about you?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: You are a loser for life, you suck at everything, even at the only
+        few things that you really love.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Remember that time when I busted your clarinet playing skills with
+        just a piece of paper?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: You can't really do shit without complaining.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: a384c4d54a085e64aabd781cf5ff80ae,
         type: 3}
       BackgroundSprite: {fileID: 0}
-      LabelText: Sandy
-      DialogText: Nooooooooo!
+      LabelText: Squidward
+      DialogText: This is not my fucking fault...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: When did being average become criminal?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: It's just you acting around like you are some kind of a fucking
+        protagonist of some stupid-ass show.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: I am just a simple man living my simple life and YOU
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: You always interfere.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: I fucking hate you with every cell in my body.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: I wish you die of that bubbles...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: I wish they will tear you apart piece by piece...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: I wish at least they will be able
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Squidward
+      DialogText: to erase that stupid smile from your face.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}

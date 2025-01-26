@@ -1,0 +1,508 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b2fef265490eb349a3f9bb5e7115a2f, type: 3}
+  m_Name: Day4_FramesConfig
+  m_EditorClassIdentifier: 
+  Data:
+    AllFrames:
+    - CharacterSprite: {fileID: 21300000, guid: 1bf6bd02709627b4ea36b1daa1037d5a,
+        type: 3}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: SpongeBob
+      DialogText: Mr. Krabs?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 700423812ab90b149ad9ddcff2137fd2,
+        type: 3}
+      BackgroundSprite: {fileID: 21300000, guid: df3a568d1aa3f974ebc13f2ccc5d68dd,
+        type: 3}
+      LabelText: SpongeBob
+      DialogText: Oh, there you are.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Just wanted to check out on you hehe
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Like, you haven't come out of here for several days already.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Phew, why is it so cold here?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I've also came here to ask about further instructions. Like I know
+        that I must proceed with the defense of the walls.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: But when will we counter-attack Chum Bucket?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I think we are powerful enough to defeat him with all these turrets
+        and guns I've got. We could even call some reinforcements.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Like... Lobster Larry for example? You are almost one of a kind
+        so maybe he will help you, like a crabs codex?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I assure you I am more than capable of defeating Plankton even
+        by myself, but I trust your judging and will await command.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Just say something already! We are full covered in shit here Mr.
+        Krabs and if you don't awake we will lose this place for sure!
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Wait... What is that?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Oh, right, you weren't powered on. Why you haven't told me before.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 43d58c7c6ab42b94883821e8f6e0a4e6,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Here you go.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 23501e5eef417b3498cc0f9e2ef36ae4,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: Is that you SpongeBob?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Yes, the one and only.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: Yarr, such a pleasure to see you my boy.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: How is it going for the employee of the month?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: It is all good. Doing my job with a 120% success rate.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: Attaboy! Keep that bar up and bring more customers here with your
+        perfectly prepared Krabby Patties!
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Will do, when we will achieve victory over Plankton.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: Ah, don't worry about that little pest. He won't be getting his
+        dirty hands on the secret formula, not till I keep this place!
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: 'I knew that you had a plan Mr. Krabs! Let''s crush that bastard! '
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 43d58c7c6ab42b94883821e8f6e0a4e6,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: Oh, SpongeBob, I remember the first day of you working in Krusty
+        Krab.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: You were so young and unexperienced back than, but look at you
+        now! Standing ground on your own.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 23501e5eef417b3498cc0f9e2ef36ae4,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: I'm so proud of you.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Thank you Mr. Krabs, I'm grateful for the time I spent here. I've
+        learned lot of new things.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: Yarr, the clock is ticking SpongeBob, time is money, so get back
+        to work and feed those mouths.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Um... So you give me a permit to attack Chum Bucket or..?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: Don't forget that the customer is always right. And beware people
+        in official suits, those might me from inspection.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Mr. Krabs, I don't get it, what are you talking about?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Stop talking so metaphorically there is no time for this. Bubbles
+        could be breaking in any minute now.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 43d58c7c6ab42b94883821e8f6e0a4e6,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: Bubbles? What are you talking about?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: What have gotten into you Mr. Krabs? Bubbles, the ones that Plankton
+        sends here to destroy Krusty Krab.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: You were the one to give me order to defend it even at a cost of
+        my life.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: This place if everything to you! You've been developing it for
+        decades!
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: And this place is also important to me. Here I spent more than
+        a half of my life.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 23501e5eef417b3498cc0f9e2ef36ae4,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: You are right SpongeBob
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: Technically, Sheldon is attacking Krusty Krab with bubbles...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: Yarr... Yarr...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: Let me tell you something my boy.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: I... am not a good person at all.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 43d58c7c6ab42b94883821e8f6e0a4e6,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: I think I am even a pretty horrible huh.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: Exploiting your hard labour, paying half of an average salary of
+        a chef, counting every penny to make sure to earn as much as possible.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: I've made a lot of mistakes in my life, but till now I simply haven't
+        seen them.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: I wasn't prepared for a threat, even though I saw it arising right
+        under my nose. I was outplayed, unfortunately.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: And I've let down all the people that depended on me.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: A catastrophe.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: In the end, I couldn't even save myself.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 23501e5eef417b3498cc0f9e2ef36ae4,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: But you know, cheer up.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: These were good years we all spent together. As a big whole family.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Mr. Krabs...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I can't follow your thoughts.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: What the actual fuck are you talking about.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: What is happening. Not so long ago I was busting my ass out here
+        walking on a thin line between life and death.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: And now it turns out that you just gave up? How can you even say
+        about sacrity of this restaurant if you give up so easily?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: There is a lot of things that you don't know.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: And I wish you'd never get to know.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: Just go home, little star.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: Go get some rest.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: That no good for me Mr. Krabs...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: 'How can I sleep knowing that everything I''ve put my life into
+        will be destroyed. There is no way back. '
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I will go and destroy Chum Bucket and than we will get to the top.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: SpongeBob
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: b4166012b9c873443b2e148bab8b8343,
+        type: 3}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: it's useless.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: The Krusty Krab is a lie.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: We've already lost everything.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: Please, stay.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I need to get those bubbles.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I will get all of them.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Eugene
+      DialogText: Forgive me, SpongeBob.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}

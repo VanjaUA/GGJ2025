@@ -1,0 +1,516 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b2fef265490eb349a3f9bb5e7115a2f, type: 3}
+  m_Name: Day5_FramesConfig
+  m_EditorClassIdentifier: 
+  Data:
+    AllFrames:
+    - CharacterSprite: {fileID: 21300000, guid: 1bf6bd02709627b4ea36b1daa1037d5a,
+        type: 3}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: Unknown
+      DialogText: Look, if it isn't my old little friend SpongeBob SquarePants.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: bec2ae7c1d41c884ea89de6b4e772cff,
+        type: 3}
+      BackgroundSprite: {fileID: 21300000, guid: 507b0ce8ad6ddda4a826856e51d14378,
+        type: 3}
+      LabelText: Sheldon
+      DialogText: Long time no see.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 8300000, guid: 0935d9cb2a45e744a8a8d0944bad4584, type: 3}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Which I assume was a pretty long time for you.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Stay right where you are Plankton, I'm taking you to jail for all
+        the crimes you've commited!
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: And I will regret everything that I've done, this is your revenge
+        for Krusty Krab bla-bla-bla
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: I've already heared it from you a couple of times, all this bullshit
+        is no news for me.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: What happend to Mr. Krabs? Why is he in some kind of a robotic
+        body? Is it your hands doing?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Shledon
+      DialogText: Woah boy easy-easy
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Shledon
+      DialogText: Why would I put a mind of that worthless scum in some kind of functioning
+        shell.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Shledon
+      DialogText: That would simply be a waste of my resources don't you think so?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: You better take that back! He is a great boss and very reliable
+        crab. He is opposite of you, you are only capable of stealing
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: someone else's ideas and you will do everything to achieve your
+        goal, even murder!
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Eugene was simply a money-hungry shark whose success relied solely
+        on agressive marketing and exploitation of human resources.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Personally, I see murder and things that Krabs did are almost equal.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Enough of this useless chatter, if you won't surrender I will take
+        you directly to hell.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Haha! Go for it. But I don't see any reasons for you to do that.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: 'For example, what if I said that Krabs helped me with creating
+        Bubbles? '
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Lies won't save you now, not at this point.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Oh I strongly believe that they will.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Because for you killing me means that you will never be able to
+        return to Krusty Krab anymore.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Come think about it, how did you even get here?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: By defeating everything that moves on a way here of course.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: But do you really remember it?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: You must've already noticed a slight amnesia or even memory impairment.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Talking with dead people, seeing vivid flashbacks, hallucinating..
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Fighting imaginary bubbles.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Stop! just fucking stop a sec.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: A moment ago you've said that you and Mr. Krabs are responsible
+        for creating bubbles I am very sure in that.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Don't try to fool me.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: I don't even need to try.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: The pain that you feel right now shoul be enough as an evidence.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: How do you...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: It is called withdrawal.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Take a sit, I need to see how the symptoms are going.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: What the hell is happening with me...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: I must say, doing business with me was an epic fail from Eugene's
+        part.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Can't judge him, everyone likes money, especially easy money.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: But what really impresses me is that he knew the risks
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: and he knew that they are not on his side.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: And I'm more than sure that he knew about possible consequences.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: It hurts...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: It is not the first time, but already a tradition, so
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: just to let you know.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: I've killed Eugene.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: And before that I've collected the secret formula. Directly from
+        his hands.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Why should it be like this? What I did to deserve all this?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I'm aching. I'm hurting. I'm suffering.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: The thing is
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: A man is merely a puppet in hands of random circumstances.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Nobody has so-called free will.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: All your actions are predetermined.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: One successful choice, for example, influenced by someone, leads
+        to you looking at things
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: at that specific angle and make your decisions based on that angle.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: It's like choosing a route.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Only thing that the one choosing initially is not you.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I'm aching. I'm hurting. I'm suffering.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: So what is it that you try to defend now?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: From my point of view, you've already lost everything that was
+        precious to you.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Loving girlfriend, potentially even a wife.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Your favourite job, at which you were solid professional.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Even your closest friends. All of them left you rotting alone.
+        I'm curious why?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: End my suffering..
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: And now you're just trying to hold together those remnants at least
+        in your memory.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Tell me, how much longer can you last?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: SHELDON!!
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I WILL KILL YOU!!
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Hm.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Sorry kid, nothing personal, just business.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Here you go, your meds.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: We called it Bubbles.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: This one is an old prototype, experimental drug.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: We've decided to test it on you. I've received a lot of info from
+        you.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: This one that I'm holding, specifically, is much more stronger
+        than previous that I gave you.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: It seems your body rapidly developed a tolerance to it, so I have
+        to give you this dose, even though it can be fatal.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I will return...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: I'll be waiting for you, but for now, return to your beloved Krusty
+        Krabs.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sheldon
+      DialogText: Enjoy.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}

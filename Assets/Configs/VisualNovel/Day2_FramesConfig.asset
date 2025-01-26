@@ -13,4 +13,505 @@ MonoBehaviour:
   m_Name: Day2_FramesConfig
   m_EditorClassIdentifier: 
   Data:
-    AllFrames: []
+    AllFrames:
+    - CharacterSprite: {fileID: 21300000, guid: e3529a280ff27f64b8ec5502cc824722,
+        type: 3}
+      BackgroundSprite: {fileID: 21300000, guid: b2de07719a012c04ab8905742f5c0cab,
+        type: 3}
+      LabelText: Sandy
+      DialogText: Hey, SpongeBob
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 8300000, guid: 52c8d2657c6ea41489bbd8e30a0b0d98, type: 3}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: What?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: If I were an underwater creature, what would I be?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Hm...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: A sea otter?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: Very funny...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: No but for real?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I don't know
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: what even kind of question is this?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: Lame...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: Hey, SpongeBob
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Can't you just sleep?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: Were'd you get this weed?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: I'm feeling a bit funny..
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I don't know what you are talking about, it's the same supplier.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: And I'm not feeling any different...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: Hm
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: Maybe... I fell in love with you again? And it's a feeling of love
+        flowing through my stomach?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Oh really?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: Just assuming.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: Like, is love between a squirell and a sea sponge even possible?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: Seems like some weirdo's wet dreams.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Spongebob
+      DialogText: Love knows no species.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: Oh stop...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: SpongeBob...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: What are we?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: What do you mean baby?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: We've been living together for more than a year and still we are
+        not even officialy a couple.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: Why is it like that?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Hey, everything okay, calm down...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: What got into you?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: You must have taken too much or something you acting strange.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Come on now...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: I'm so confused I...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: I don't understand what I want.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Everything's alright, why would we even need to make our relationship
+        official?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Why it matters if we are happy together?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: 'You remember that story when we decided that Gary needs a companion
+        and we brought a female snail?  '
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: So that he would learn how to be a man and everything?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: Yeah
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: And  later we had to get rid of her because Gary was a little to
+        active in his reproductive mission?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: Yeah that was a disaster.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: For real.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: Gary...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Yeah, what a snail he was...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: How are your searches for job going?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Veinly...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: You know how hard it is nowadays to find well-payed job.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: I don't know how much longer we can live for my savings.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I've already promised you that I will find one.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Fuck it's not like there is no place in Bikini Bottom in need of
+        an experienced chef.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: You could go work somewhere else just to earn at least something
+        while you'd search for work in the kitchen.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: No I'm not going to work janitor or some other shit I'm created
+        to make food!
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: We are running out of money SpongeBob
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: I don't want to return to my parents' house.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: Who told you that you'd need to?
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: What's your fucking problem you're acting really strange today.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: I'm pregnant.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: ..
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: You must be kidding.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: Sandy
+      DialogText: I'm not... *sob*
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I'll go take a shower...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 21300000, guid: 1bf6bd02709627b4ea36b1daa1037d5a,
+        type: 3}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: SpongeBob
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 8300000, guid: 768599798ae689a459651c95063a942d, type: 3}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 5cb3072e2066dc742b22160ce37c9dd6,
+        type: 3}
+      LabelText: SpongeBob
+      DialogText: Fucking hell...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 3b96e2d496c1d99489fc1d5926ec7afc,
+        type: 3}
+      LabelText: SpongeBob
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I'm not feeling well...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: That stupid bitch...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: '"What are we?"'
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: fucking bloody fucking hell
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: why does everything has to be this way
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: mmh
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: pain
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: why at the moment like this
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I need them...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 21300000, guid: 89de1aeb48c383849b2a0e5e514a1ba6,
+        type: 3}
+      LabelText: SpongeBob
+      DialogText: ...
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
+    - CharacterSprite: {fileID: 0}
+      BackgroundSprite: {fileID: 0}
+      LabelText: SpongeBob
+      DialogText: I need bubbles.
+      SoundClip: {fileID: 0}
+      MusicClip: {fileID: 0}
