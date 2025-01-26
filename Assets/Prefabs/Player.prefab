@@ -67,7 +67,7 @@ Transform:
   - {fileID: 7216795596477132850}
   - {fileID: 7216795595948064385}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7216795596232977983
 MeshFilter:
@@ -152,10 +152,11 @@ MonoBehaviour:
   mouseSensitivity: 1
   moveSpeed: 10
   damage: 5
-  damageableLayer:
-    serializedVersion: 2
-    m_Bits: 64
+  entityLayer: 7
   shootPoint: {fileID: 7216795595948064385}
+  shootLayer:
+    serializedVersion: 2
+    m_Bits: 2147483647
   bulletImpact: {fileID: 5177594189894775847, guid: 7e34c3076f8fc1e40b867d0bbf8b33bb,
     type: 3}
 --- !u!1 &7216795596477132863

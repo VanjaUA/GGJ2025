@@ -13,8 +13,9 @@ namespace Engine
         [SerializeField] private float moveSpeed;
 
         [SerializeField] private int damage;
-        [SerializeField] private LayerMask damageableLayer;
+        [SerializeField] private int entityLayer;
         [SerializeField] private Transform shootPoint;
+        [SerializeField] private LayerMask shootLayer;
 
         private int _currentHealth;
         private int allBullets = 98, bulletsInClip = 12;
@@ -41,6 +42,8 @@ namespace Engine
             PlayerHUDManager.Instance.UpdateBulletsText(allBullets, bulletsInClip);
             PlayerHUDManager.Instance.UpdateHealthBar(_currentHealth, MaxHealth);
             PlayerHUDManager.Instance.UpdateMoneyText(money);
+
+            InputManager.Instance.OnLeftMouseButtonPressed += OnLeftMouseButtonPressed;
         }
 
         private void Update()
@@ -49,7 +52,6 @@ namespace Engine
             HandleCharacterMovement();
 
             CursorHandle();
-            HandleShooting();
 
             if (Input.GetKeyDown(KeyCode.T))
             {
@@ -76,6 +78,7 @@ namespace Engine
                 TryToReload();
             }
         }
+
 
         private void HandleCharacterLook()
         {
@@ -117,36 +120,51 @@ namespace Engine
             }
         }
 
-        private void HandleShooting()
+        private void OnLeftMouseButtonPressed()
         {
-            if (Input.GetMouseButtonDown(0) && TryToShoot())
+            if (TryToShoot() == false)
             {
-                float spread = 0.005f;
-                if (InputManager.Instance.IsMoving())
-                {
-                    spread = 0.02f;
-                }
-                Vector2 randomOffset = Random.insideUnitCircle * spread;
-                Vector3 targetPoint = new Vector3(0.5f + randomOffset.x, 0.5f + randomOffset.y, 0f);
-                Ray ray = mainCamera.ViewportPointToRay(targetPoint);
-                //ray.origin = mainCamera.transform.position;
-                ray.origin = shootPoint.position;
+                return;
+            }
 
-                if (Physics.Raycast(ray, out RaycastHit hit))
+            float spread = 0.005f;
+            if (InputManager.Instance.IsMoving())
+            {
+                spread = 0.02f;
+            }
+            Vector2 randomOffset = Random.insideUnitCircle * spread;
+            Vector3 targetPoint = new Vector3(0.5f + randomOffset.x, 0.5f + randomOffset.y, 0f);
+            Ray ray = mainCamera.ViewportPointToRay(targetPoint);
+            //ray.origin = mainCamera.transform.position;
+            ray.origin = shootPoint.position;
+
+            float minRadius = 0.1f;
+            Collider[] hits = Physics.OverlapSphere(transform.position, minRadius);
+            foreach (var collider in hits)
+            {
+                if (collider.TryGetComponent<EnemyHitBox>(out EnemyHitBox target))
                 {
-                    if (hit.collider.TryGetComponent<IDamageable>(out IDamageable target))
-                    {
-                        Debug.Log("Hit   " + hit.collider.gameObject.name);
-                        target.Damage(damage);
-                    }
-                    else
+                    target.Damage(damage);
+                    return;
+                }
+            }
+
+            float shootDistance = 100f;
+            if (Physics.Raycast(ray, out RaycastHit hit, shootDistance, shootLayer, QueryTriggerInteraction.Ignore))
+            {
+                if (hit.collider.TryGetComponent<IDamageable>(out IDamageable target))
+                {
+                    target.Damage(damage); 
+                }
+                else
+                {
+                    if (hit.collider.gameObject.layer != entityLayer)
                     {
                         GameObject bulletImpactObject = Instantiate(bulletImpact, hit.point + hit.normal * 0.002f,
-                            Quaternion.LookRotation(hit.normal, Vector3.up));
+                                Quaternion.LookRotation(hit.normal, Vector3.up));
                         Destroy(bulletImpactObject, 5f);
                     }
                 }
-
             }
         }
 

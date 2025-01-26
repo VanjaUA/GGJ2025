@@ -16,6 +16,10 @@ namespace Engine
         [SerializeField] private TextMeshProUGUI characterLabelText;
         [SerializeField] private TextMeshProUGUI dialogText;
 
+        [SerializeField] private AudioSource soundSource;
+        [SerializeField] private AudioSource musicSource;
+        [SerializeField] private AudioClip clickSound;
+
         [SerializeField] private List<VisualNovelFramesConfig> allFramesData;
 
         private int currentDayId;
@@ -58,6 +62,7 @@ namespace Engine
 
         private void MoveToNextFrame() 
         {
+            soundSource.PlayOneShot(clickSound);
             currentFrameId++;
             if (currentFrameId >= allFramesData[currentDayId].Data.AllFrames.Count)
             {
@@ -87,11 +92,11 @@ namespace Engine
             }
             if (frameData.MusicClip != null)
             {
-                //play music
+                musicSource.clip = frameData.MusicClip;
             }
             if (frameData.SoundClip != null)
             {
-                //play sound
+                soundSource.PlayOneShot(frameData.SoundClip);
             }
         }
     }
